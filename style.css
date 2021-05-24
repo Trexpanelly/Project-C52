@@ -1,0 +1,50 @@
+ * {
+    background-color: #675219;
+ }
+ 
+ img {
+    border : solid;
+    border-radius: 20px;
+    color : #a87203
+}
+
+ .Origamis {
+     display : flex;
+     flex-wrap : wrap;
+     padding : 30px;
+     margin: 30px
+ }
+
+ .Colorigami {
+    display : flex;
+    flex-wrap : wrap;
+    padding : 40px;
+    margin : 30px
+
+}
+
+.Habitats {
+    position : relative
+}
+
+.Habitats:hover img {
+    transform : scale(1.2);
+}
+
+
+.Interests {
+    position : relative;
+}
+
+.Interests:hover img {
+    transform : scale(1.2);
+}
+ 
+ 
+a:link {
+    color : #4810a7
+}
+
+a:visited {
+    color : #1f32ff
+}
